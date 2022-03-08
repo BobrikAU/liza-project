@@ -1,0 +1,14 @@
+.page {
+  box-sizing: border-box;
+  max-width: 1440px;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 0 24px;
+  background-color: #fcfcfc;
+  font-family: 'Golos', Arial, Helvetica, sans-serif;
+  color: #212329;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
