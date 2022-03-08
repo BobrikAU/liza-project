@@ -1,0 +1,5 @@
+.lists {
+  padding-top: 32px;
+  display: flex;
+  justify-content: space-between;
+}
