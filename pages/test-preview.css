@@ -1,0 +1,21 @@
+@import url(../vendor/fonts/fonts.css);
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/content/content.css);
+
+/* хедер */
+@import url(../blocks/header/header.css);
+
+/* хлебные крошки */
+@import url(../blocks/bread-crumbs/bread-crumbs.css);
+@import url(../blocks/bread-crumbs/__item/bread-crumbs__item.css);
+
+/* контент */
+@import url(../blocks/content/content.css);
+@import url(../blocks/card-content/card-content.css);
+
+/* сайдбар */
+@import url(../blocks/sidebar/sidebar.css);
+@import url(../blocks/card-index/card-index.css);
