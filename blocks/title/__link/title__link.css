@@ -1,0 +1,13 @@
+.title__link {
+  color: #212329;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.title__link:hover {
+  color: #F06000;
+}

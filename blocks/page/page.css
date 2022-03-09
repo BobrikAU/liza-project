@@ -2,10 +2,9 @@
   box-sizing: border-box;
   max-width: 1440px;
   width: 100%;
-  min-height: 100vh;
   margin: 0 auto;
   padding: 0 0 24px;
-  background-color: #fcfcfc;
+  background-color: #E5E5E5;
   font-family: 'Golos', Arial, Helvetica, sans-serif;
   color: #212329;
   font-weight: 400;
