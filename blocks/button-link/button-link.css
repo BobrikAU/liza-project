@@ -1,0 +1,13 @@
+.button-link {
+  display: flex;
+  width: 184px;
+  height: 48px;
+  background-color: #fff;
+  border: 1.2px solid #e6e7eb;
+  border-radius: 16px;
+  text-decoration: none;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 50px;
+}
