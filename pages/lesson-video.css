@@ -1,7 +1,28 @@
-@import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../vendor/normalize.css);
+
 @import url(../blocks/page/page.css);
+
+@import url(../blocks/content/content.css);
+
+/* хедер */
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__img/header__img.css);
-@import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-item/header__menu-item.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__menu-icon/header__menu-icon.css);
+@import url(../blocks/header/__menu-icon/_type/header__menu-icon_type_courses.css);
+@import url(../blocks/header/__menu-icon/_type/header__menu-icon_type_profile.css);
+
+/* хлебные крошки */
+@import url(../blocks/bread-crumbs/bread-crumbs.css);
+@import url(../blocks/bread-crumbs/__item/bread-crumbs__item.css);
+
+/* контент */
+@import url(../blocks/content/content.css);
+@import url(../blocks/card-content/card-content.css);
+
+/* сайдбар */
+@import url(../blocks/sidebar/sidebar.css);
+@import url(../blocks/card-index/card-index.css);

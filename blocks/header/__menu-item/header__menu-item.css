@@ -1,0 +1,7 @@
+.header__menu-item {
+  padding-left: 40px;
+}
+
+.header__menu-item:first-child {
+  padding-left: 0;
+}
