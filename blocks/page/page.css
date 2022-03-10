@@ -8,7 +8,6 @@
   column-gap: 24px;
   max-width: 1440px;
   width: 100%;
-  min-height: 100vh; /* Саша, зачем это свойство? */
   margin: 0 auto;
   padding: 0 0 32px;
   background-color: #fcfcfc;

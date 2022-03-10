@@ -7,6 +7,13 @@
 
 /* хедер */
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-item/header__menu-item.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__menu-icon/header__menu-icon.css);
+@import url(../blocks/header/__menu-icon/_type/header__menu-icon_type_courses.css);
+@import url(../blocks/header/__menu-icon/_type/header__menu-icon_type_profile.css);
 
 /* хлебные крошки */
 @import url(../blocks/bread-crumbs/bread-crumbs.css);
