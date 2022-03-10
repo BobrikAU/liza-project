@@ -9,5 +9,13 @@
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  margin: 50px 50px;
+  font-family: 'Golos';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #f60;
+
+
+
+  margin: 25px 25px;
 }
