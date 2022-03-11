@@ -2,14 +2,15 @@
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
 
-@import url(../blocks/block/block.css);
-@import url(../blocks/list/list.css);
-@import url(../blocks/list/__text/list__text.css);
-@import url(../blocks/list/__img/list__img.css);
-@import url(../blocks/list/__subtitle/list__subtitle.css);
-@import url(../blocks/paragraph/paragraph.css);
+@import url(../blocks/test-description/test-description.css);
 @import url(../blocks/title/title.css);
 @import url(../blocks/title/__link/title__link.css);
 @import url(../blocks/title/__text/title__text.css);
-@import url(../blocks/lists/lists.css);
-@import url(../blocks/list/__name/list__name.css);
+@import url(../blocks/paragraph/paragraph.css);
+@import url(../blocks/test-description/__list-img/test-description__list-img.css);
+@import url(../blocks/test-description/__list-name/test-description__list-name.css);
+@import url(../blocks/test-description/__list-subtitle/test-description__list-subtitle.css);
+@import url(../blocks/test-description/__list-text/test-description__list-text.css);
+@import url(../blocks/test-description/__list/test-description__list.css);
+@import url(../blocks/test-description/__lists/test-description__lists.css);
+

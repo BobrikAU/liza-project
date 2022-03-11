@@ -1,9 +1,9 @@
-.list__text {
+.test-description__list-text {
   display: flex;
   justify-content: space-between;
   margin-top: 16px;
 }
 
-.list__text:nth-of-type(1) {
+.test-description__list-text:nth-of-type(1) {
   margin: 0;
 }
