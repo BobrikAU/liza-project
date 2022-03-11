@@ -1,9 +1,0 @@
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts/fonts.css);
-@import url(../blocks/page/page.css);
-
-@import url(../blocks/link-hover/link-hover.css); 
-@import url(../blocks/bread-crumbs/bread-crumbs.css);
-@import url(../blocks/bread-crumbs/__item/bread-crumbs__item.css);
-@import url(../blocks/bread-crumbs/__link/bread-crumbs__link.css);
-@import url(../blocks/bread-crumbs/__icon/bread-crumbs__icon.css);
