@@ -1,0 +1,8 @@
+.button_available {
+  background-color: #f60;
+  color: #fff;
+}
+
+.button_available:hover {
+  background-color: #f06000;
+}

@@ -1,0 +1,9 @@
+.button-link_theme_border-none {
+  background-color: #fcfcfc;
+  border: none;
+  color: #212329;
+}
+
+.button-link_theme_border-none:hover {
+  text-decoration: underline;
+}

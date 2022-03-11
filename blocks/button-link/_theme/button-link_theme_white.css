@@ -1,0 +1,5 @@
+.button-link_theme_white:hover {
+  box-shadow: 0 0 2px rgba(231, 232, 235, 0.6),
+              0 4px 8px rgba(231, 232, 235, 0.6);
+  color: #f06000;
+}
