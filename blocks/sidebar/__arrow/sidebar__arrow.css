@@ -1,0 +1,9 @@
+.sidebar__arrow{
+  background-image: url(../../../images/icon-arrow-down.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 12px 10px;
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+}
