@@ -1,6 +1,7 @@
-.title__text {
+.title-text {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
   margin: 0;
+  text-align: left;
 }
