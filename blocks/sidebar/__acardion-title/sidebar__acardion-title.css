@@ -1,0 +1,8 @@
+.sidebar__acardion-title{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  margin-top: 16px;
+}
