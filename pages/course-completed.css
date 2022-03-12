@@ -1,0 +1,11 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../pages/block.css);
+@import url(../blocks/course-completed/__subtitle/course-completed__subtitle.css);
+@import url(../blocks/course-completed/__paragraph/course-completed__paragraph.css);
+@import url(../blocks/course-completed/course-completed.css);
+@import url(../blocks/course-completed/__paragraph-span/course-completed__paragraph-span.css);
+
+
+
