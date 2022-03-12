@@ -1,0 +1,11 @@
+.testform__point {
+  display: flex;
+  width: fit-content;
+  margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.testform__point:last-child{
+  margin-bottom: 0;
+}

@@ -1,0 +1,13 @@
+.testform__question-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding: 32px 0;
+  border: none;
+  border-bottom: 1px solid #E6E7EB;
+}
+
+.testform__question-group:last-of-type {
+  border-bottom: none;
+}

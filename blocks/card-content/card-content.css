@@ -1,3 +1,6 @@
 .card-content {
-
+  padding: 32px;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 0px 0px 4px #e7e8eb99, 0px 4px 16px #e7e8eb99;
 }
