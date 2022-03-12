@@ -1,4 +1,7 @@
 .card-content {
+  display: grid;
+  grid-template-columns: 100%;
+  row-gap: 32px;
   padding: 32px;
   border-radius: 16px;
   background-color: #fff;

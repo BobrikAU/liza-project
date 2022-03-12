@@ -1,0 +1,7 @@
+.course-nav__button-link {
+  margin-left: 24px;
+}
+
+.course-nav__button-link:last-child {
+  margin-right: 32px;
+}
