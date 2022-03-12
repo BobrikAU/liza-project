@@ -1,27 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./pages/course-completed.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Кинологическое направление</title>
+  <link type="image/x-icon" rel="shortcut icon" href="./images/favicon.ico">
+  <link rel="stylesheet" href="./pages/course-completed.css">
 </head>
+
 <body class="page">
-  <!-- <div class="test-description course-completed">
-    <h2 class="title-text">Курс завершен</h2>
-    <h3 class="course-completed__subtitle">Поздравляем!</h3>
-    <p class="paragraph course-completed__paragraph">Вы&nbsp;успешно завершили курс &laquo;Кинологическое направление&raquo;.</p>
-    <p class="paragraph course-completed__paragraph">Теперь вы&nbsp;можете участвовать в&nbsp;поисково-спасательных мероприятиях</p>
-    <p class="paragraph course-completed__paragraph">со своей собакой.</p>
-  </div> -->
-  <div class="test-description course-completed">
-    <h2 class="title-text">Курс завершен</h2>
-    <h3 class="course-completed__subtitle">Сожалеем</h3>
-    <p class="paragraph course-completed__paragraph">Курс <span class="course-completed__paragraph-span">&laquo;Кинологическое направление&raquo;</span> не&nbsp;пройден.</p>
-    <p class="paragraph course-completed__paragraph">Мы&nbsp;предьявляем очень строгие требования к&nbsp;участникам поисково-</p>
-    <p class="paragraph course-completed__paragraph">спасательных мероприятий, из-за чего обучение может быть сложным.</p>
-    <p class="paragraph course-completed__paragraph">Вы&nbsp;можете попробовать себя в&nbsp;<span class="course-completed__paragraph-span">других направлениях.</span></p>
-  </div>
+
+  <header class="header">
+    <p class="header__title">Учебная платформа</p>
+    <nav class="header__nav">
+      <ul class="header__menu">
+        <li class="header__menu-item">
+          <a class="header__link link-hover" href="#">
+            <span class="header__menu-icon header__menu-icon_type_courses"></span>Курсы</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__link link-hover" href="#">
+            <span class="header__menu-icon header__menu-icon_type_profile"></span>Профиль</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <ol class="bread-crumbs">
+    <li class="bread-crumbs__item"><a href="#" class="bread-crumbs__link link-hover">Курсы</a><span class="bread-crumbs__icon"></span></li>
+    <li class="bread-crumbs__item"><a href="#" class="bread-crumbs__link link-hover">Кинологическое направление</a><span class="bread-crumbs__icon"></span></li>
+    <li class="bread-crumbs__item"><p class="bread-crumbs__link bread-crumbs__link_active">Курс завершен</p></li>
+  </ol>
+
+  <main class="content">
+  <section class="card-content">
+    <div class="card-content__heading">
+      <h1 class="card-content__title">Курс завершен</h1>
+    </div>
+    <!-- <div class="course-completed">
+      <h2 class="course-completed__result">Сожалеем</h2>
+      <p class="course-completed__info">Курс <span class="course-completed__span-accent">&laquo;Кинологическое направление&raquo;</span> не&nbsp;пройден.</p>
+      <p class="course-completed__info">Мы&nbsp;предьявляем очень строгие требования к&nbsp;участникам поисково-спасательных мероприятий, из-за чего обучение может быть сложным. Вы&nbsp;можете попробовать себя <span class="course-completed__span-accent">в&nbsp;других направлениях</span>.</p>
+    </div> -->
+    <div class="course-completed">
+      <h2 class="course-completed__result">Поздравляем!</h2>
+      <p class="course-completed__info">Вы&nbsp;успешно завершили курс &laquo;Кинологическое направление&raquo;.</p>
+      <p class="course-completed__info">Теперь вы&nbsp;можете участвовать в&nbsp;поисково-спасательных мероприятиях со&nbsp;своей собакой.</p>
+    </div>
+  </section>
+  <nav class="course-nav">
+    <a href="#" class="button-link button-link_theme_white course-nav__button-link">
+      <img src="./images/icon-arrow-back-orange-default.svg" alt="Стрелка назад" class="button-link__icon-arrow">
+      Назад
+    </a>
+    <a href="#" class="button-link button-link_theme_orange course-nav__button-link">Завершить
+    </a>
+  </nav>
+  </main>
+
+  <aside class="sidebar">
+    <section class="card-index">
+    </section>
+  </aside>
+
 </body>
 </html>

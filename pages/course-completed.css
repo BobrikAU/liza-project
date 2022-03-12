@@ -1,11 +1,43 @@
-@import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../vendor/normalize.css);
+
 @import url(../blocks/page/page.css);
-@import url(../pages/block.css);
-@import url(../blocks/course-completed/__subtitle/course-completed__subtitle.css);
-@import url(../blocks/course-completed/__paragraph/course-completed__paragraph.css);
+
+@import url(../blocks/link-hover/link-hover.css);
+
+/* хедер */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-item/header__menu-item.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__menu-icon/header__menu-icon.css);
+@import url(../blocks/header/__menu-icon/_type/header__menu-icon_type_courses.css);
+@import url(../blocks/header/__menu-icon/_type/header__menu-icon_type_profile.css);
+
+/* хлебные крошки */
+@import url(../blocks/bread-crumbs/bread-crumbs.css);
+@import url(../blocks/bread-crumbs/__item/bread-crumbs__item.css);
+@import url(../blocks/bread-crumbs/__link/bread-crumbs__link.css);
+@import url(../blocks/bread-crumbs/__link/_active/bread-crumbs__link_active.css);
+@import url(../blocks/bread-crumbs/__icon/bread-crumbs__icon.css);
+
+/* контент */
+@import url(../blocks/content/content.css);
+@import url(../blocks/card-content/card-content.css);
+@import url(../blocks/card-content/__heading/card-content__heading.css);
+@import url(../blocks/card-content/__title/card-content__title.css);
 @import url(../blocks/course-completed/course-completed.css);
-@import url(../blocks/course-completed/__paragraph-span/course-completed__paragraph-span.css);
+@import url(../blocks/course-completed/__result/course-completed__result.css);
+@import url(../blocks/course-completed/__info/course-completed__info.css);
+@import url(../blocks/course-completed/__span-accent/course-completed__span-accent.css);
+@import url(../blocks/course-nav/course-nav.css);
+@import url(../blocks/course-nav/__button-link/course-nav__button-link.css);
+@import url(../blocks/button-link/button-link.css);
+@import url(../blocks/button-link/_theme/button-link_theme_white.css);
+@import url(../blocks/button-link/__icon-arrow/button-link__icon-arrow.css);
+@import url(../blocks/button-link/_theme/button-link_theme_orange.css);
 
-
-
+/* сайдбар */
+@import url(../blocks/sidebar/sidebar.css);
+@import url(../blocks/card-index/card-index.css);
