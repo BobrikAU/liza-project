@@ -8,6 +8,10 @@
   border-bottom: 1px solid #E6E7EB;
 }
 
+.testform__question-group:first-of-type {
+  padding-top: 0;
+}
+
 .testform__question-group:last-of-type {
   border-bottom: none;
 }
