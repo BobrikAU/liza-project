@@ -1,6 +1,9 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
+
+
+/*css файлы кнопок - ссылок*/
 @import url(../blocks/button-link/button-link.css);
 @import url(../blocks/button-link/_theme/button-link_theme_white.css);
 @import url(../blocks/button-link/__icon-arrow/button-link__icon-arrow.css);

@@ -1,4 +1,7 @@
 .button-link_theme_border-none {
+  width: auto;
+  height: auto;
+  white-space: nowrap;
   background-color: #fcfcfc;
   border: none;
   color: #212329;
