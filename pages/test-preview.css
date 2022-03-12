@@ -25,6 +25,26 @@
 /* контент */
 @import url(../blocks/content/content.css);
 @import url(../blocks/card-content/card-content.css);
+@import url(../blocks/card-content/__heading/card-content__heading.css);
+@import url(../blocks/card-content/__title/card-content__title.css);
+@import url(../blocks/card-content/__subtitle/card-content__subtitle.css);
+@import url(../blocks/card-content/__button-link/card-content__button-link.css);
+@import url(../blocks/button-link/button-link.css);
+@import url(../blocks/button-link/_theme/button-link_theme_orange.css);
+@import url(../blocks/test-terms/test-terms.css);
+@import url(../blocks/test-terms/__item/test-terms__item.css);
+@import url(../blocks/test-terms/__icon/test-terms__icon.css);
+@import url(../blocks/test-terms/__text/test-terms__text.css);
+@import url(../blocks/test-terms/__info/test-terms__info.css);
+
+
+@import url(../blocks/course-nav/course-nav.css);
+@import url(../blocks/course-nav/__button-link/course-nav__button-link.css);
+@import url(../blocks/button-link/_theme/button-link_theme_white.css);
+@import url(../blocks/button-link/__icon-arrow/button-link__icon-arrow.css);
+@import url(../blocks/button-link/_inactive/button-link_inactive.css);
+@import url(../blocks/button-link/__icon-arrow/_side/button-link__icon-arrow_side_right.css);
+
 
 /* сайдбар */
 @import url(../blocks/sidebar/sidebar.css);
