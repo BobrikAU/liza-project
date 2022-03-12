@@ -1,6 +1,7 @@
-.sidebar__text{
+.sidebar__subtitle{
   max-width: 328px;
   width: 100%;
+  text-decoration: none;
   font-family: 'Golos';
   font-weight: 400;
   font-size: 18px;
@@ -8,4 +9,3 @@
   color: #212329;
   margin: 0 8px 0 0;
 }
-

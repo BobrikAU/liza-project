@@ -2,13 +2,15 @@
 @import url(../blocks/sidebar/__title/sidebar__title.css);
 @import url(../blocks/sidebar/__card/sidebar__card.css);
 @import url(../blocks/sidebar/__block/sidebar__block.css);
+@import url(../blocks/sidebar/__subtitle/sidebar__subtitle.css);
 @import url(../blocks/sidebar/__text/sidebar__text.css);
 @import url(../blocks/sidebar/__text/_orange/sidebar__text_orange.css);
 @import url(../blocks/sidebar/__bock-arrow/sidebar__bock-arrow.css);
-@import url(../blocks/sidebar/__arrow/sidebar__arrow.css);
-@import url(../blocks/sidebar/__arrow/_up/sidebar__arrow_up.css);
+@import url(../blocks/sidebar/__arrow/sidebar__arrow.css); /*закрытый акардеон*/
+@import url(../blocks/sidebar/__arrow/_open/sidebar__arrow_open.css); /*открытый акардеон*/
 @import url(../blocks/sidebar/__acardion/sidebar__acardion.css);
 @import url(../blocks/sidebar/__acardion-title/sidebar__acardion-title.css);
+@import url(../blocks/sidebar/__link/sidebar__link.css);
 @import url(../blocks/sidebar/__acardion-point/sidebar__acardion-point.css); /*иконка урока непройденного*/
 @import url(../blocks/sidebar/__acardion-point/_type/sidebar__acardion-point_type_check.css); /*иконка любого пройденного занятия*/
 @import url(../blocks/sidebar/__acardion-point/_type/sidebar__acardion-point_type_test-active.css); /*иконка активного теста*/
