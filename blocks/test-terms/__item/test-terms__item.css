@@ -1,0 +1,11 @@
+.test-terms__item {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 24px auto auto;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.test-terms__item:last-child {
+  margin-bottom: 0;
+}
