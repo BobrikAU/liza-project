@@ -1,0 +1,8 @@
+.video__sound {
+  display: flex;
+  width: 100%;
+  max-width: 132px;
+  margin-right: 32px;
+  align-items: center;
+  flex-direction: row;
+}

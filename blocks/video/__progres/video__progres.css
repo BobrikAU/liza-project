@@ -1,0 +1,8 @@
+.video__progres {
+  width: 100%;
+  max-width: 468px;
+  height: 20px;
+  margin-right: 32px;
+  display: flex;
+  align-items: center;
+}

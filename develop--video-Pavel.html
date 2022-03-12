@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./pages/develop--video-Pavel.css">
+</head>
+<body>
+
+  <!--видеопроигрыватель-->
+  <div class="video">
+    <video class="video__plaer">
+      <source src="#" type='video/mp4'>
+    </video>
+    <div class="video__controls">
+      <button type="button" class="video__play"><img src="./images/icon-play.svg" alt="play"></button>
+      <div class="video__progres">
+        <input type="range" class="video__range" value="0" min="0" max="100" oninput="range()">
+      </div>
+      <div class="video__sound">
+        <img class="video__img-sound" src="./images/icon-sound.svg" alt="sound">
+        <input type="range" class="video__range-sound">
+      </div>
+      <button type="button" class="video__zoom"><img src="./images/icon-fullscreen.svg" alt="zoom"></button>
+    </div>
+  </div>
+  <script src="./script/video-script.js"></script>
+
+</body>
+</html>
