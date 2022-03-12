@@ -1,0 +1,10 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+
+
+/*файлы блоков с результатами теста*/
+@import url(../blocks/result-test/result-test.css);
+@import url(../blocks/result-test/__paragraph/result-test__paragraph.css);
+@import url(../blocks/result-test/__title/result-test__title.css);
+@import url(../blocks/result-test/_true/result-test_true.css);
