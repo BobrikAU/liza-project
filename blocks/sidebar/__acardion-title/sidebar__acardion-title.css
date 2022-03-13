@@ -6,3 +6,7 @@
   height: auto;
   margin-top: 16px;
 }
+
+.sidebar__acardion-title:nth-of-type(1) {
+  margin-top: 32px;
+}
