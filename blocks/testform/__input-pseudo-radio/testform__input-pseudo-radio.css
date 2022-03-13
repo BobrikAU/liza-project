@@ -1,0 +1,24 @@
+.testform__input-pseudo-radio {
+  background-image: url(../../../images/icon-radio-empty.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin: 0 9px 0 1px;
+  flex-shrink: 0;
+}
+
+.testform__input-radio:checked + .testform__input-pseudo-radio {
+  background-image: url(../../../images/icon-radio-checked.svg);
+}
+
+.testform__input-radio:focus-visible + .testform__input-pseudo-radio {
+  outline: 2px solid rgb(0, 95, 204);
+  outline-offset: 1px;
+}
+
+.testform__point:hover > .testform__input-pseudo-radio {
+  opacity: .6;
+}

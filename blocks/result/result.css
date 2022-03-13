@@ -1,0 +1,8 @@
+.result {
+  display: none;
+  padding: 32px 64px;
+  border-radius: 16px;
+  background-color: #fff;
+  box-sizing: border-box;
+  width: 100%;
+}
