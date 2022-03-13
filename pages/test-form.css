@@ -34,7 +34,7 @@
 @import url(../blocks/testform/__question-group/testform__question-group.css);
 @import url(../blocks/testform/__question-text/testform__question-text.css);
 @import url(../blocks/testform/__point/testform__point.css);
-@import url(../blocks/testform/__point/_checked/testform__point_checked.css);
+@import url(../blocks/testform/__point/_style/testform__point_style_checked.css);
 @import url(../blocks/testform/__input-checkbox/testform__input-checkbox.css);
 @import url(../blocks/testform/__input-pseudo-checkbox/testform__input-pseudo-checkbox.css);
 @import url(../blocks/testform/__input-radio/testform__input-radio.css);
