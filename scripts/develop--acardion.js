@@ -6,9 +6,17 @@ function addClass (when, what) {
 }
 
 for (let i = 0; i < sidebarArrow.length; i++) {
+  if (sidebarArrow[i].classList.contains('sidebar__arrow_open')) {
+    sidebarAccordion[i].style.height = `${ sidebarAccordion[i].scrollHeight }px`;
+  } else {
+    sidebarAccordion[i].style.height = "0px";
+  };
+
   sidebarArrow[i].addEventListener('click', () =>{
     addClass(sidebarArrow[i], 'sidebar__arrow_open');
+
     if (sidebarAccordion[i].style.height === "0px") {
+      console.log(sidebarAccordion[i].style.height);
       sidebarAccordion[i].style.height = `${ sidebarAccordion[i].scrollHeight }px`;
   } else {
       sidebarAccordion[i].style.height = `${ sidebarAccordion[i].scrollHeight }px`;
