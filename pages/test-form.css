@@ -46,6 +46,7 @@
 @import url(../blocks/button-link/__icon-arrow/button-link__icon-arrow.css);
 @import url(../blocks/button-link/_inactive/button-link_inactive.css);
 @import url(../blocks/button-link/__icon-arrow/_side/button-link__icon-arrow_side_right.css);
+@import url(../blocks/testform/__input-pseudo-checkbox/_checked/testform__input-pseudo-checkbox_checked.css);
 
 /* сайдбар */
 @import url(../blocks/sidebar/sidebar.css);
