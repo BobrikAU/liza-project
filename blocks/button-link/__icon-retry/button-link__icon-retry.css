@@ -1,7 +1,8 @@
 .button-link__icon-retry {
   width: 20px;
   height: 20px;
-  padding-right: 12px;
+  margin: 0 12px 0 0;
+  background-image: url(../../../images/icon-retry-white.svg);
 }
 .button-link_theme_white:hover ~ .button-link__icon-retry_theme_white {
   opacity: .4;
