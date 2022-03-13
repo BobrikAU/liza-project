@@ -1,5 +1,6 @@
 .content {
   grid-area: content;
   display: grid;
+  grid-template-rows: max-content;
   row-gap: 24px;
 }

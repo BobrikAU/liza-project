@@ -1,6 +1,7 @@
 .card-content {
   display: grid;
   grid-template-columns: 100%;
+  grid-template-rows: max-content;
   row-gap: 32px;
   padding: 32px;
   border-radius: 16px;
