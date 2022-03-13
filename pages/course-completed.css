@@ -27,10 +27,11 @@
 @import url(../blocks/card-content/card-content.css);
 @import url(../blocks/card-content/__heading/card-content__heading.css);
 @import url(../blocks/card-content/__title/card-content__title.css);
-@import url(../blocks/course-completed/course-completed.css);
-@import url(../blocks/course-completed/__result/course-completed__result.css);
-@import url(../blocks/course-completed/__info/course-completed__info.css);
-@import url(../blocks/course-completed/__span-accent/course-completed__span-accent.css);
+@import url(../blocks/result/result.css);
+@import url(../blocks/result/_shown/result_shown.css);
+@import url(../blocks/result/__title/result__title.css);
+@import url(../blocks/result/__info/result__info.css);
+@import url(../blocks/result/__span-accent/result__span-accent.css);
 @import url(../blocks/course-nav/course-nav.css);
 @import url(../blocks/course-nav/__button-link/course-nav__button-link.css);
 @import url(../blocks/button-link/button-link.css);

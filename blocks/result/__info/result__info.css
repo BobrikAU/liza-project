@@ -1,4 +1,4 @@
-.course-completed__info {
+.result__info {
   padding: 0;
   margin: 0 0 18px;
   font-size: 18px;
@@ -6,6 +6,6 @@
   text-align: center;
 }
 
-.course-completed__info:last-child {
+.result__info:last-child {
   margin-bottom: 0;
 }
