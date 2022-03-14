@@ -1,9 +1,10 @@
 .sidebar__link {
-  width: 100%;
+  width: auto;
   max-width: 360px;
   text-decoration: none;
   display: flex;
   transition: .4s;
+  margin-left: -6px;
 }
 
 .sidebar__link:hover {
