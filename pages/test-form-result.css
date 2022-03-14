@@ -55,13 +55,14 @@
 @import url(../blocks/result/__span-accent/result__span-accent.css);
 @import url(../blocks/card-content/__button-link/card-content__button-link.css);
 @import url(../blocks/button-link/__icon-retry/button-link__icon-retry.css);
-@import url(../blocks/button-link/__icon-retry/);
+@import url(../blocks/button-link/__icon-retry/_theme/button-link__icon-retry_theme_white.css);
 @import url(../blocks/course-nav/course-nav.css);
 @import url(../blocks/course-nav/__button-link/course-nav__button-link.css);
 @import url(../blocks/button-link/_theme/button-link_theme_white.css);
 @import url(../blocks/button-link/__icon-arrow/button-link__icon-arrow.css);
 @import url(../blocks/button-link/_theme/button-link_theme_orange.css);
-@import url(../blocks/button-link/__icon-arrow/_side/button-link__icon-arrow_side_right.css);
+@import url(../blocks/button-link/__icon-arrow/_theme/button-link__icon-arrow_theme_white.css);
+@import url(../blocks/button-link/__icon-arrow/_theme/button-link__icon-arrow_theme_orange.css);
 
 /* сайдбар */
 @import url(../blocks/sidebar/sidebar.css);
