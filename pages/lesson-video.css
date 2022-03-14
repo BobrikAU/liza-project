@@ -43,8 +43,9 @@
 @import url(../blocks/button-link/button-link.css);
 @import url(../blocks/button-link/_theme/button-link_theme_white.css);
 @import url(../blocks/button-link/__icon-arrow/button-link__icon-arrow.css);
+@import url(../blocks/button-link/__icon-arrow/_theme/button-link__icon-arrow_theme_white.css);
 @import url(../blocks/button-link/_theme/button-link_theme_orange.css);
-@import url(../blocks/button-link/__icon-arrow/_side/button-link__icon-arrow_side_right.css);
+@import url(../blocks/button-link/__icon-arrow/_theme/button-link__icon-arrow_theme_orange.css);
 
 /* сайдбар */
 @import url(../blocks/sidebar/sidebar.css);
