@@ -1,7 +1,7 @@
-const sidebarAccordion = document.querySelectorAll('.sidebar__acardion'),
-      sidebarArrow = document.querySelectorAll('.sidebar__arrow'),
+const sidebarAccordion = document.querySelectorAll('.sidebar__acardion')
+const sidebarArrow = document.querySelectorAll('.sidebar__arrow')
 
-      testFormPoint = document.querySelectorAll('.testform__point'),
+const testFormPoint = document.querySelectorAll('.testform__point')
 
 
 function addClass (when, what) {
