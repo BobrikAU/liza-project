@@ -10,11 +10,11 @@
   flex-shrink: 0;
 }
 
-.testform__input-radio:checked + .testform__input-pseudo-radio {
+.testform__input:checked + .testform__input-pseudo-radio {
   background-image: url(../../../images/icon-radio-checked.svg);
 }
 
-.testform__input-radio:focus-visible + .testform__input-pseudo-radio {
+.testform__input:focus-visible + .testform__input-pseudo-radio {
   outline: 2px solid rgb(0, 95, 204);
   outline-offset: 1px;
 }
