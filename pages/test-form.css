@@ -35,11 +35,14 @@
 @import url(../blocks/testform/__question-text/testform__question-text.css);
 @import url(../blocks/testform/__point/testform__point.css);
 @import url(../blocks/testform/__point/_style/testform__point_style_checked.css);
+
+
 @import url(../blocks/testform/__input-checkbox/testform__input-checkbox.css);
 @import url(../blocks/testform/__input-pseudo-checkbox/testform__input-pseudo-checkbox.css);
 @import url(../blocks/testform/__input-radio/testform__input-radio.css);
 @import url(../blocks/testform/__input-pseudo-radio/testform__input-pseudo-radio.css);
 @import url(../blocks/button/button.css);
+@import url(../blocks/button/_available/button_available.css);
 @import url(../blocks/course-nav/course-nav.css);
 @import url(../blocks/course-nav/__button-link/course-nav__button-link.css);
 @import url(../blocks/button-link/_theme/button-link_theme_white.css);
@@ -47,6 +50,11 @@
 @import url(../blocks/button-link/_inactive/button-link_inactive.css);
 @import url(../blocks/button-link/__icon-arrow/_side/button-link__icon-arrow_side_right.css);
 @import url(../blocks/testform/__input-pseudo-checkbox/_checked/testform__input-pseudo-checkbox_checked.css);
+
+@import url(../blocks/testform/__point/_style/testform__point_style_success.css);
+@import url(../blocks/testform/__point/_style/testform__point_style_fail.css);
+
+
 
 /* сайдбар */
 @import url(../blocks/sidebar/sidebar.css);
@@ -68,3 +76,11 @@
 @import url(../blocks/sidebar/__acardion-point/_type/sidebar__acardion-point_type_test-active.css); /*иконка активного теста*/
 @import url(../blocks/sidebar/__acardion-point/_type/sidebar__acardion-point_type_video-active.css); /*иконка активного видео*/
 @import url(../blocks/sidebar/__acardion-point/_type/sidebar__acardion-point_type_test.css);
+
+
+@import url(../blocks/testform/__input-pseudo-checkbox/_icon-checked/testform__input-checkbox_icon-checked.css);
+@import url(../blocks/testform/__input-radio/_icon-checked/testform__input-radio_icon-checked.css);
+@import url(../blocks/testform/__result-icon/_type/testform__result-icon_type_success-solid.css);
+@import url(../blocks/testform/__result-icon/_type/testform__result-icon_type_success-default.css);
+@import url(../blocks/testform/__result-icon/_type/testform__result-icon_type_fail-default.css);
+@import url(../blocks/testform/__result-icon/_type/testform__result-icon_type_fail-solid.css);

@@ -1,6 +1,7 @@
 .testform__point {
-  display: flex;
-  width: fit-content;
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 10px;
   margin-bottom: 16px;
   font-size: 18px;
   line-height: 24px;

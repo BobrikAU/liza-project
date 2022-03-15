@@ -1,3 +1,6 @@
 .testform__result-icon_type_fail-default {
   background-image: url(../../../../images/icon-cross.svg);
+  align-self: center;
+  width: 14px;
+  height: 10px;
 }
