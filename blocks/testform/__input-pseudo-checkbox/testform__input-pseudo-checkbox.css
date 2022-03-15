@@ -9,11 +9,11 @@
   background-size: contain;
 }
 
-.testform__input-checkbox:checked + .testform__input-pseudo-checkbox {
+.testform__input:checked + .testform__input-pseudo-checkbox {
   background-image: url(../../../images/icon-checkbox-checked.svg);
 }
 
-.testform__input-checkbox:focus-visible + .testform__input-pseudo-checkbox {
+.testform__input:focus-visible + .testform__input-pseudo-checkbox {
   outline: 2px solid rgb(0, 95, 204);
   outline-offset: 1px;
 }

@@ -13,6 +13,6 @@
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
-  color: #f60;
-  transition: .4s;
+  color: #ff6600;
+  transition: background-color .15s linear, box-shadow .15s linear, color .15s linear;
 }
