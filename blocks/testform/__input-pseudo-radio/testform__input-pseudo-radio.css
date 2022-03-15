@@ -2,7 +2,6 @@
   background-image: url(../../../images/icon-radio-empty.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
   width: 22px;
   height: 22px;
   border-radius: 50%;
@@ -17,8 +16,4 @@
 .testform__input:focus-visible + .testform__input-pseudo-radio {
   outline: 2px solid rgb(0, 95, 204);
   outline-offset: 1px;
-}
-
-.testform__point:hover > .testform__input-pseudo-radio {
-  opacity: .6;
 }

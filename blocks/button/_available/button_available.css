@@ -1,7 +1,7 @@
 .button_available {
-  background-color: #f60;
   color: #fff;
   transition: background-color .15s linear;
+  background-color: #f60;
   cursor: pointer;
 }
 
