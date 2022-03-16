@@ -5,6 +5,7 @@
   margin-bottom: 16px;
   font-size: 18px;
   line-height: 24px;
+  cursor: pointer;
 }
 
 .testform__point:last-child{

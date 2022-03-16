@@ -15,4 +15,5 @@
   line-height: 24px;
   color: #f60;
   transition: .4s;
+  justify-self: center;
 }

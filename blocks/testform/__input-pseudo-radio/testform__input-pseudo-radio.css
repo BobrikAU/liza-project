@@ -9,6 +9,7 @@
   border-radius: 50%;
   margin: 0 9px 0 1px;
   flex-shrink: 0;
+  cursor: pointer;
 }
 
 /* .testform__input-radio:checked + .testform__input-pseudo-radio {
@@ -20,6 +21,6 @@
   outline-offset: 1px;
 }
 
-.testform__point:hover > .testform__input-pseudo-radio {
+/* .testform__point:hover > .testform__input-pseudo-radio {
   opacity: .6;
-}
+} */

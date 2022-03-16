@@ -8,6 +8,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  cursor: pointer;
 }
 
 /* .testform__input-checkbox:checked + .testform__input-pseudo-checkbox {
@@ -19,6 +20,6 @@
   outline-offset: 1px;
 }
 
-.testform__point:hover > .testform__input-pseudo-checkbox {
+/* .testform__point:hover > .testform__input-pseudo-checkbox {
   opacity: .6;
-}
+} */
