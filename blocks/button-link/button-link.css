@@ -1,0 +1,18 @@
+.button-link {
+  display: flex;
+  width: 184px;
+  height: 48px;
+  background-color: #fff;
+  border: 1.2px solid #e6e7eb;
+  border-radius: 16px;
+  text-decoration: none;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Golos';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #ff6600;
+  transition: background-color .15s linear, box-shadow .15s linear, color .15s linear;
+}

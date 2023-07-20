@@ -1,0 +1,7 @@
+.bread-crumbs__icon {
+  background-image: url(../../../images/icon-arrow-right.svg);
+  height: 24px;
+  width: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+}

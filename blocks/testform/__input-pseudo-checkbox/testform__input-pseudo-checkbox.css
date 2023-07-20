@@ -1,0 +1,18 @@
+.testform__input-pseudo-checkbox {
+  background-image: url(../../../images/icon-checkbox-empty.svg);
+  height: 20px;
+  width: 20px;
+  margin: 0 10px 0 2px;
+  flex-shrink: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.testform__input:checked + .testform__input-pseudo-checkbox {
+  background-image: url(../../../images/icon-checkbox-checked.svg);
+}
+
+.testform__input:focus-visible + .testform__input-pseudo-checkbox {
+  outline: 2px solid rgb(0, 95, 204);
+  outline-offset: 1px;
+}

@@ -1,0 +1,9 @@
+.sidebar__block{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 91% 1fr;
+  grid-template-rows: auto;
+  margin-bottom: 33px;
+  border-top: 1px solid #E6E7EB;
+  padding-top: 32px;
+}

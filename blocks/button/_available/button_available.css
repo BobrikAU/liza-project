@@ -1,0 +1,10 @@
+.button_available {
+  color: #fff;
+  transition: background-color .15s linear;
+  background-color: #f60;
+  cursor: pointer;
+}
+
+.button_available:hover {
+  background-color: #f06000;
+}

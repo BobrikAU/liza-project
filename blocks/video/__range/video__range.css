@@ -1,0 +1,16 @@
+.video__range {
+  -webkit-appearance: none;
+  cursor: pointer;
+  width: 100%;
+  background-color: #9397A3;
+  background:-webkit-linear-gradient(left, #FF6600 0%, #FF6600 25%, #9397A3 25%, #9397A3 100%);
+  border-radius: 16px;
+  height: 6px;
+}
+.video__range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 100%;
+}

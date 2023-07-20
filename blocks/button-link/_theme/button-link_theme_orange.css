@@ -1,0 +1,9 @@
+.button-link_theme_orange {
+  background-color: #f60;
+  border: none;
+  color: #fff;
+}
+
+.button-link_theme_orange:hover {
+  background-color: #f06000;
+}

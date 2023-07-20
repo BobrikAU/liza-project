@@ -1,0 +1,11 @@
+.button-link_theme_border-none {
+  border: none;
+  color: #212329;
+  width: auto;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.button-link_theme_border-none:hover {
+  text-decoration: underline;
+}

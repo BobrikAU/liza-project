@@ -1,0 +1,68 @@
+@import url(../vendor/fonts/fonts.css);
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/link-hover/link-hover.css);
+
+/* хедер */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-item/header__menu-item.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__menu-icon/header__menu-icon.css);
+@import url(../blocks/header/__menu-icon/_type/header__menu-icon_type_courses.css);
+@import url(../blocks/header/__menu-icon/_type/header__menu-icon_type_profile.css);
+
+/* хлебные крошки */
+@import url(../blocks/bread-crumbs/bread-crumbs.css);
+@import url(../blocks/bread-crumbs/__item/bread-crumbs__item.css);
+@import url(../blocks/bread-crumbs/__link/bread-crumbs__link.css);
+@import url(../blocks/bread-crumbs/__link/_active/bread-crumbs__link_active.css);
+@import url(../blocks/bread-crumbs/__icon/bread-crumbs__icon.css);
+
+/* контент */
+@import url(../blocks/content/content.css);
+@import url(../blocks/card-content/card-content.css);
+@import url(../blocks/card-content/__heading/card-content__heading.css);
+@import url(../blocks/card-content/__title/card-content__title.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__plaer/video__plaer.css);
+@import url(../blocks/video/__controls/video__controls.css);
+@import url(../blocks/video/__play/video__play.css);
+@import url(../blocks/video/__progres/video__progres.css);
+@import url(../blocks/video/__range/video__range.css);
+@import url(../blocks/video/__sound/video__sound.css);
+@import url(../blocks/video/__img-sound/video__img-sound.css);
+@import url(../blocks/video/__range-sound/video__range-sound.css);
+@import url(../blocks/video/__zoom/video__zoom.css);
+
+@import url(../blocks/course-nav/course-nav.css);
+@import url(../blocks/course-nav/__button-link/course-nav__button-link.css);
+@import url(../blocks/button-link/button-link.css);
+@import url(../blocks/button-link/_theme/button-link_theme_white.css);
+@import url(../blocks/button-link/__icon-arrow/button-link__icon-arrow.css);
+@import url(../blocks/button-link/__icon-arrow/_theme/button-link__icon-arrow_theme_white.css);
+@import url(../blocks/button-link/_theme/button-link_theme_orange.css);
+@import url(../blocks/button-link/__icon-arrow/_theme/button-link__icon-arrow_theme_orange.css);
+
+/* сайдбар */
+@import url(../blocks/sidebar/sidebar.css);
+@import url(../blocks/sidebar/__title/sidebar__title.css);
+@import url(../blocks/sidebar/__card/sidebar__card.css);
+@import url(../blocks/sidebar/__block/sidebar__block.css);
+@import url(../blocks/sidebar/__subtitle/sidebar__subtitle.css);
+@import url(../blocks/sidebar/__text/sidebar__text.css);
+@import url(../blocks/sidebar/__text/_orange/sidebar__text_orange.css);
+@import url(../blocks/sidebar/__bock-arrow/sidebar__bock-arrow.css);
+@import url(../blocks/sidebar/__arrow/sidebar__arrow.css); /*закрытый акардеон*/
+@import url(../blocks/sidebar/__arrow/_open/sidebar__arrow_open.css); /*открытый акардеон*/
+@import url(../blocks/sidebar/__acardion/sidebar__acardion.css);
+@import url(../blocks/sidebar/__acardion-title/sidebar__acardion-title.css);
+@import url(../blocks/sidebar/__link/sidebar__link.css);
+@import url(../blocks/sidebar/__acardion-point/sidebar__acardion-point.css); /*иконка урока непройденного*/
+@import url(../blocks/sidebar/__acardion-point/_type/sidebar__acardion-point_type_check.css); /*иконка любого пройденного занятия*/
+@import url(../blocks/sidebar/__acardion-point/_type/sidebar__acardion-point_type_test-active.css); /*иконка активного теста*/
+@import url(../blocks/sidebar/__acardion-point/_type/sidebar__acardion-point_type_video-active.css); /*иконка активного видео*/
+@import url(../blocks/sidebar/__acardion-point/_type/sidebar__acardion-point_type_test.css); /*иконка непройденного теста*/

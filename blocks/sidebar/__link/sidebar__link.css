@@ -1,0 +1,12 @@
+.sidebar__link {
+  width: auto;
+  max-width: 360px;
+  text-decoration: none;
+  display: flex;
+  transition: .4s;
+  margin-left: -6px;
+}
+
+.sidebar__link:hover {
+  opacity: .6;
+}
